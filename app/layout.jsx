@@ -1,4 +1,5 @@
-import '@styles/globals.css'
+import Nav from '@/components/Nav'
+import '../styles/globals.css'
 
 import React from 'react'
 
@@ -15,6 +16,7 @@ const RootLayout = ({children}) => {
             <div className='gradient'/>
         </div>
         <main className='app'>
+            <Nav/>
        {children}
         </main>
     </body>
